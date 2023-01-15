@@ -72,3 +72,68 @@ img {
   margin-right: 30px;
 }
 
+.banner__inner {
+  margin-bottom: 200px;
+  background: url(/img/main-banner.jpg);
+  height: 758px;
+  border-radius: 70px;
+}
+
+.banner__info {
+  padding: 208px 0 0 52px;
+}
+
+.banner__title {
+  margin-bottom: 18px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  color: #292F36;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.banner__subtitle {
+  margin-bottom: 21px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.banner__button {
+  display: inline-flex;
+  padding: 26px 48px;
+  border-radius: 18px;
+  background-color: #292F36;
+}
+
+.button-text--light{
+  margin-right: 10px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
