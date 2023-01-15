@@ -22,10 +22,6 @@ img {
   height: auto;
 }
 
-hr {
-  transform: rotate(90deg);
-}
-
 .container-1200 {
   width: 1200px;
   margin: 0 auto;
@@ -552,7 +548,7 @@ hr {
   width: 340px;
   height: 290px;
   border-radius: 45px 45px 0 0;
-  margin-bottom: 21px;
+  margin-bottom: 15px;
 }
 
 .news-card__img1 {
@@ -574,10 +570,17 @@ hr {
   padding: 8px 10px;
   background-color: #fff;
   border-radius: 8px 8px 8px 0;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
 }
 
 .news-card__title {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-family: 'DM Serif Display';
   font-style: normal;
   font-weight: 400;
@@ -648,6 +651,7 @@ hr {
 }
 
 .join__button {
+  text-decoration: none;
   display: inline-flex;
   margin-left: 166px;
   justify-content: center;
@@ -665,4 +669,129 @@ hr {
   line-height: 125%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 134px;
+}
+.interno__text {
+  margin-top: 18px;
+  margin-bottom: 31px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
+
+.soc__list {
+  display: flex;
+  align-items: center;
+}
+
+.soc__item {
+  margin-right: 54px;
+}
+
+.pages__title {
+  margin-bottom: 35px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  color: #292F36;  
+}
+
+.pages__item {
+  margin-bottom: 35px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.pages__item>a {
+  text-decoration: none;
+  color: #4D5053;
+}
+
+.pages__item:last-child {
+  margin-bottom: 0;
+}
+
+.services__title {
+  margin-bottom: 35px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  color: #292F36;  
+}
+
+.services__item {
+  margin-bottom: 35px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.services__item>a {
+  text-decoration: none;
+  color: #4D5053;
+}
+
+.services__item:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__title {
+  margin-bottom: 35px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  color: #292F36;  
+}
+
+.contacts__item {
+  margin-bottom: 35px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.contacts__item>a {
+  text-decoration: none;
+  color: #4D5053;
+}
+
+.contacts__item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__copyright {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 46px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #4D5053;
 }
