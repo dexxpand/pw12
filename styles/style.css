@@ -497,3 +497,122 @@ hr {
   letter-spacing: 0.01em;
   color: #4D5053;  
 }
+
+.news__inner {
+  margin-bottom: 200px;
+}
+
+.news__title {
+  margin-bottom: 12px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #292F36;
+}
+
+.news__subtitle {
+  margin-bottom: 52px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
+
+.news__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__item {
+  margin-right: 27px;
+  border-radius: 62px;
+  border: 1px solid #E7E7E7;
+  height: 521px;
+  padding: 21px;
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}
+
+.news__item-accent {
+  background-color: #F4F0EC;
+}
+
+.news-card__img {
+  position: relative;
+  width: 340px;
+  height: 290px;
+  border-radius: 45px 45px 0 0;
+  margin-bottom: 21px;
+}
+
+.news-card__img1 {
+  background: url(/img/news1.jpg);
+}
+
+.news-card__img2 {
+  background: url(/img/news2.jpg);
+}
+
+.news-card__img3 {
+  background: url(/img/news3.jpg);
+}
+
+.news-card__tag {
+  position: absolute;
+  top: 230px;
+  left: 20px;
+  padding: 8px 10px;
+  background-color: #fff;
+  border-radius: 8px 8px 8px 0;
+}
+
+.news-card__title {
+  margin-bottom: 20px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
+}
+
+.news-card__subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #4D5053;  
+}
+
+.news-card__button {
+  padding: 18px 23px 12px 25px;
+  background-color: #F4F0EC;
+  border-radius: 50%;
+}
+
+.button__action {
+  margin: 0;
+  width: 6px;
+  height: 14px;
+}
+
+.news-card__button-accent {
+  background-color: #FFFFFF;
+}
