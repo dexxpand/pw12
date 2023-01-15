@@ -137,3 +137,52 @@ img {
   order: 0;
   flex-grow: 0;
 }
+
+.stages__list {
+  display: flex;
+  margin-bottom: 200px;
+  justify-content: space-between;
+}
+
+.stages__item {
+  text-align: center;
+  margin: 0 21px;
+}
+
+.stages__title {
+  margin-bottom: 20px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;  
+  color: #292F36; 
+}
+
+.stages__descr {
+  margin-bottom: 52px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
+
+.stages__button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.button-text--dark {
+  margin-right: 12px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #4D5053;
+}
