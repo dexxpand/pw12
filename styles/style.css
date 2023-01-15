@@ -607,7 +607,7 @@ hr {
   border-radius: 50%;
 }
 
-.button__action {
+.button__action-s {
   margin: 0;
   width: 6px;
   height: 14px;
@@ -615,4 +615,54 @@ hr {
 
 .news-card__button-accent {
   background-color: #FFFFFF;
+}
+
+.join__inner {
+  margin-bottom: 200px;
+  padding: 80px 315px;
+  background-color: #292F36;
+  border-radius: 70px;
+}
+
+.join__title {
+  margin-bottom: 11px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.join__subtitle {
+  margin-bottom: 32px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;  
+}
+
+.join__button {
+  display: inline-flex;
+  margin-left: 166px;
+  justify-content: center;
+  padding: 26px 37px;
+  background-color: #CDA274;
+  border-radius: 18px;
+}
+
+.button__text--light {
+  margin-right: 11px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
 }
