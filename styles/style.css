@@ -289,3 +289,75 @@ hr {
   border-radius: 0 325px 0 125px;
 }
 
+.reviews__inner {
+  background-color: #F4F0EC;
+  border-radius: 70px;
+  margin-bottom: 150px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 103px;
+}
+
+.reviews__title {
+  padding: 88px 0 38px 0;
+  text-align: center;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
+}
+
+.reviews__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__item {
+  background-color: #fff;
+  height: 340px;
+  padding: 53px 37px 0 37px;
+  border-radius: 30px;
+}
+
+.reviews__user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.user__photo {
+  margin-right: 23px;
+}
+
+.user__name {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;  
+  letter-spacing: 0.01em;
+  color: #292F36;
+}
+
+.user__location {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
+
+.reviews__text {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
