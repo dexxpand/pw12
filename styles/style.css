@@ -22,6 +22,11 @@ img {
   height: auto;
 }
 
+body {
+  background: url(/img/background.jpg);
+  padding-left: 16px;
+}
+
 .container-1200 {
   width: 1200px;
   margin: 0 auto;
@@ -31,7 +36,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 44px 0 57px 0;
+  padding: 44px 0 57px 0;
 }
 
 .logo {
@@ -119,6 +124,7 @@ img {
   padding: 26px 48px;
   border-radius: 18px;
   background-color: #292F36;
+  text-decoration: none;
 }
 
 .button-text--light{
@@ -786,8 +792,8 @@ img {
 
 .footer__copyright {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 46px;
+  padding-top: 40px;
+  padding-bottom: 46px;
   font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
